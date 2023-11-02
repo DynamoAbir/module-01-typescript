@@ -68,4 +68,17 @@ if we want to keep an object non-editable then we can give readonly before decle
 
 
 to add an array to an array as element we cant push directly 
-we have to add a ... spread operator  .. example 1.6*/
+we have to add a ... spread operator  .. example 1.7
+
+
+
+ADDING 2 OBJECT
+
+we can add 2 objects element together by useing spread operator
+where new Objects element will be the elements of both first and secod operator... example in 1.7
+
+
+
+we can assign rest operator by using ... then to call each and every element of the operator we have to for each it 
+example in 1.7
+*/
