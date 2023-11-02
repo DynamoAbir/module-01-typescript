@@ -63,3 +63,9 @@ like ruble. then we will get suggesssion ..
 
 if we want to keep an object non-editable then we can give readonly before declearing type.
 */
+
+/* Spread Operator
+
+
+to add an array to an array as element we cant push directly 
+we have to add a ... spread operator  .. example 1.6*/
