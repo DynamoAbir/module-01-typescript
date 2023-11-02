@@ -21,3 +21,45 @@ can define the directory of the js file ..
 
 to change the version of the js file we have to find target file and we can change the version
 */
+
+
+/* Primitive Tyepes & Non Primitive types 
+
+Primitive:
+
+1.Number
+2.String
+3.Boolean
+4.null
+5.undifined
+6.symble
+
+
+
+non primitive types:
+1.Array
+2.Object
+3.Tuple
+ */
+
+
+/* Object and optional literal
+
+
+we can write an object in typeScript by this manner
+
+const ruble:{name:"string"; profession:"string"}={name:"Mahamdul Hasan Abir", profession:"web developer"}
+
+but we can give an optional sign if there is an option which can be exist or not.
+like const ruble:{name?:"string";profession:"stirng"}={profession:"Web Developer"}
+
+
+if we want to fiexed any value we can give that value as type like
+
+const number:{number:01941992390}={number:01941992390}
+
+we can access object property by only giving name and then . 
+like ruble. then we will get suggesssion .. 
+
+if we want to keep an object non-editable then we can give readonly before declearing type.
+*/
