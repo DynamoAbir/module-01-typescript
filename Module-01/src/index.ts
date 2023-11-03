@@ -1,12 +1,23 @@
-const fullName: string = "Abir";
+{
+  type Faltu = {
+    name: string;
+    profession: string;
+    address: "Madartake";
+    age: "25";
+  };
+  type Valo = {
+    name: string;
+    profession: "Web Developer";
+    address: "Uttora";
+    age: "40";
+  };
 
-const rollNumber: number = 123;
+  type Person = Faltu | Valo;
 
-const isAdmin: boolean = true;
-
-const x: undefined = undefined;
-const friends: number[] = [12, 3123, 313, 313];
-friends.push(12);
-const friendsName: string[] = ["kashem"];
-
-const ageName: [number, string, number, string] = [12, "abir", 12, "abir"];
+  const user: Person = {
+    name: "Abir",
+    profession: "Bekar",
+    address: "Madartake",
+    age: "25",
+  };
+}
