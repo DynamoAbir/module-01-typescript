@@ -48,7 +48,8 @@ non primitive types:
 
 we can write an object in typeScript by this manner
 
-const ruble:{name:"string"; profession:"string"}={name:"Mahamdul Hasan Abir", profession:"web developer"}
+const ruble:{name:"string"; profession:"string"}={name:"Mahamdul Hasan Abir",
+ profession:"web developer"}
 
 but we can give an optional sign if there is an option which can be exist or not.
 like const ruble:{name?:"string";profession:"stirng"}={profession:"Web Developer"}
@@ -79,6 +80,33 @@ where new Objects element will be the elements of both first and secod operator.
 
 
 
-we can assign rest operator by using ... then to call each and every element of the operator we have to for each it 
+we can assign rest operator by using ... then to call each and every element of the operator
+ we have to for each it 
 example in 1.7
+*/
+
+
+/* Object Destructuring
+
+to dustructure an object we have to declear it .
+then we can destructure it as normal . but in nested face4 we have to re destructure
+ it like example 1.8 kokil
+but we can't give type in destructering face.. we can rename it by that.
+*/
+
+
+/* Array Destructuring
+
+in array we can destructer it by giving name of there index cordially
+but if we don't want to name any index we can easily skip by using a coma. and if we want all after that
+we can give ...rest . we can accass them all by this rest example 1.8
+*/
+
+/* Type Alias
+
+we can set standerd type by declearing type ..
+
+after writting type we can use it in many data
+to declear it we have to write type and then convention is write a Capitalletter name
+after that we can use it.. example in 1.9ts
 */
