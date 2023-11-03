@@ -110,3 +110,19 @@ after writting type we can use it in many data
 to declear it we have to write type and then convention is write a Capitalletter name
 after that we can use it.. example in 1.9ts
 */
+
+
+
+// Union ALias
+
+/* We can add 2 type into 1 type !! it is possible in typeScript
+
+to do that we have to decleat 2 types first 
+and then we if we want to say that final type can contain only one of this then we will use | this line.
+
+and if we want to say that final product should have both of those type then we have to use & this sign.
+
+
+example in 1.10.ts;
+
+*/

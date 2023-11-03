@@ -34,7 +34,9 @@
 
   type FullStackDeveloper = FrontEndDeveloper & BackEndDeveloper;
 
-  const fullstackDeveloper: FullStackDeveloper = {
+  const superDeveloper: FullStackDeveloper = {
     skills: ["HTML", "CSS", "Express"],
+    designation1: "FrontendDeveloper",
+    designation2: "BackEndDevleoper",
   };
 }
