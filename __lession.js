@@ -125,4 +125,23 @@ and if we want to say that final product should have both of those type then we 
 
 example in 1.10.ts;
 
+
+
 */
+
+//Turnarry operator | nullish coalescing operator
+
+/* 
+If we want a function like it will return if the result is this or that then run this or that function ,
+
+in this kind of case we use turnarry operator !!
+but if there couldbe a possibilty that come undefine of null.. in that case we use nullish coalescing operator..
+to call a nullinsh coalesing operator we use ?? ..
+*/
+
+
+// Never Type
+
+/* If we know there is a function who will never give a perticuler result !! we can call it a never type ...
+
+like an Error function which is demonstrated in 1.12.ts file*/
